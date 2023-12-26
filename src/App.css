@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
+.App {
+  transition: background-color 0.3s ease;
+}
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
 
+.toggler-button{
+  background: none;
+  border: none;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
